@@ -2,24 +2,24 @@
 
 Systems engineer working on graph-native ML and neuro-symbolic systems since 2016 — currently Cloud Application Architect at AWS Professional Services.
 
-Four-time founder. Bet a company on graph-native ML in 2016; the field converged on the same architectural bets five years later under names like GraphRAG and knowledge-graph agents. I care about the problems under the hype cycle — distributed systems, graph ML, CS fundamentals — and I write and ship to prove it.
+Three-time founder. Built a graph-native ML system in 2016–2020 whose core architectural bets — knowledge graphs as first-class weights, retrieval over graph structure — have since become mainstream under labels like GraphRAG and knowledge-graph agents. I care about the problems under the hype cycle — distributed systems, graph ML, CS fundamentals — and I write and ship to prove it.
 
 ## Selected Work
 
 **[Khala — Agentic AI Teams](https://github.com/brandonkindred/Khala-Agentic-AI-Teams)**
-Multi-agent system on the AWS Strands Agents SDK. Twenty named functional teams — strategy lab, nutritionist, sales, agent registry, and more — coordinating through a planning and orchestration layer. Look-see is the first external pilot.
+Personal R&D environment, open-sourced — where I learn the ins and outs of AI agents and agentic teams. Built on the AWS Strands Agents SDK. Twenty named functional teams — strategy lab, nutritionist, sales, agent registry, and more — coordinated through a planning and orchestration layer. Increasingly a system for spinning up new agentic teams and running exploratory experiments like Deepthought, a recursive agent. Look-see is the first external pilot built on top of it.
 
-**[Look-see](https://github.com/brandonkindred/Look-see)**
-Automated web accessibility audit platform. Sole founder, sole engineer, 2020–2024. Solo replatform to GCP serverless took run cost from $13K/mo to $640/mo — the same pattern of enterprise serverless modernization AWS architects run for paying customers, shipped on my own venture before AWS hired me.
+**[Look-see](https://github.com/brandonkindred/Look-see)** — 2020–2024
+Automated web accessibility audit platform. Sole founder, sole engineer. Reduced operational cost from ~$13K/mo to ~$640/mo by retiring two GKE clusters — one running a duplicated-monolith scale-out pattern, one hosting a Selenium browser farm that dominated the bill — in favor of a decomposed service on Google Cloud Run + Pub/Sub, Neo4j on Compute Engine, and a Cloud Run–hosted Selenium Docker image still published on my GitHub. The same pattern of enterprise serverless modernization AWS architects run for paying customers, shipped on my own venture before AWS hired me.
 
 **[Itaú Unibanco platform modernization](https://aws.amazon.com/pt/blogs/aws-brasil/como-o-itau-unibanco-modernizou-seu-core-bancario-internacional-com-servicos-serverless-da-aws/)** — AWS Brasil Blog (pt-BR), 2025
-Architected the platform modernization for Brazil's largest private bank and a top-50 global bank by assets — migrated the international checking-account core to AWS serverless in 15 months, running at 1/26th the cost of alternative market solutions. Architecture, diagrams, and performance breakdowns in the published blog are mine. Itaú's team presented the work at AWS Summit São Paulo.
+Tech lead on the AWS ProServe side of the international checking-account core modernization for Brazil's largest private bank and a top-50 global bank by assets. Staffed and led a team of 4 ProServe consultants (3 L5 delivery, 1 L6). Gathered requirements from 3 customer engineering teams, their community lead, and ~12 cross-functional deep-dives with search-process leads across the bank; co-authored the PRFAQ, documented the legacy system, and developed the target architecture with the community lead and tech lead Andressa Fernandes, who later presented the work at AWS Summit São Paulo. Upskilled Itaú engineers across the customer teams through pair programming, AWS-service training, and knowledge-transfer sessions. Delivered in 15 months on AWS serverless. Architecture, diagrams, and performance breakdowns in the published blog are mine.
 
-**HypeDrive** *(originally BuzzBands)*
-Geofenced mobile promotions platform, 2015–2016. Sole engineer on a shipped iOS + Android app (Angular compiled to native via PhoneGap) and a Ruby on Rails + PostgreSQL backend. Product shipped, never reached paying customers. Kept the codebase and the lesson: a working product doesn't rescue a distribution gap.
+**HypeDrive** — *originally BuzzBands*, 2015–2016
+Geofenced mobile promotions platform. Sole engineer on a shipped iOS + Android app (Angular compiled to native via PhoneGap) and a Ruby on Rails + PostgreSQL backend. Product shipped, never reached paying customers. Kept the codebase and the lesson: a working product doesn't rescue a distribution gap.
 Repos: [BuzzBands](https://github.com/brandonkindred/BuzzBands) · [buzzbands_mobile](https://github.com/brandonkindred/buzzbands_mobile) · [buzzbands_client](https://github.com/brandonkindred/buzzbands_client)
 
-**Qanairy** (2016–2020, archived)
+**Qanairy** — 2016–2020, archived
 Graph-native neural network for automated web application test discovery. Neo4j weights-as-edges; elastic vectors assembled from relevant edges at prediction time rather than a fixed dense network. Reinforcement-learning agent reached meaningful convergence in 20–30 training points per site. Filed a provisional on the elastic vectors architecture; wrote the full non-provisional and shelved it on counsel's advice — publishing would have revealed the IP moat without funding to defend it. *Best in Class: Transfer Learning* — AI DevWorld San Jose, 2019.
 
 ## Selected Writing
@@ -51,6 +51,6 @@ With host Andrew Gelina. Engineer-focused conversation: path into programming, F
 
 ## What I build in
 
-Production code shipped in Perl, Kotlin, Python, Java, TypeScript/JavaScript, Scala, SQL, and Cypher. AWS (Lambda, API Gateway, EventBridge, Step Functions, ECS, DynamoDB), Terraform, CDK, Neo4j, Kafka, and so much more. I honestly don't think either of us care enough to have me enumerate all of the tools and services that I work in. We'd be here all day!
+Production code shipped in Perl, Kotlin, Python, Java, TypeScript/JavaScript, Scala, SQL, and Cypher. AWS (Lambda, API Gateway, EventBridge, Step Functions, ECS, DynamoDB), Terraform, CDK, Neo4j, Kafka.
 
 Problems over stacks. I pick up whatever the problem requires.
