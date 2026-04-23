@@ -4,7 +4,11 @@ Systems engineer working on graph-native ML and neuro-symbolic systems since 201
 
 Three-time founder. Built a graph-native ML system in 2016–2020 whose core architectural bets — knowledge graphs as first-class weights, retrieval over graph structure — have since become mainstream under labels like GraphRAG and knowledge-graph agents. I care about the problems under the hype cycle — distributed systems, graph ML, CS fundamentals — and I write and ship to prove it.
 
-## Selected Work
+For background, roles, and professional references: [linkedin.com/in/brandon-kindred](https://www.linkedin.com/in/brandon-kindred/).
+
+## Where to Start — Which of the 40+ Repos Should You Care About?
+
+Some of these are shipped products, some are archived ventures, some are active R&D. If you're only going to look at a few, start here.
 
 **[Khala — Agentic AI Teams](https://github.com/brandonkindred/Khala-Agentic-AI-Teams)**
 Personal R&D environment, open-sourced — where I learn the ins and outs of AI agents and agentic teams. Built on the AWS Strands Agents SDK. Twenty named functional teams — strategy lab, nutritionist, sales, agent registry, and more — coordinated through a planning and orchestration layer. Increasingly a system for spinning up new agentic teams and running exploratory experiments like Deepthought, a recursive agent. Look-see is the first external pilot built on top of it.
