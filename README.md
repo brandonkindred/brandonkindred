@@ -18,8 +18,8 @@ Automated web accessibility audit platform. Sole founder, sole engineer. Reduced
 Geofenced mobile promotions platform. Sole engineer on a shipped iOS + Android app (Angular compiled to native via PhoneGap) and a Ruby on Rails + PostgreSQL backend. Product shipped, never reached paying customers. Kept the codebase and the lesson: a working product doesn't rescue a distribution gap.
 Repos: [BuzzBands](https://github.com/brandonkindred/BuzzBands) · [buzzbands_mobile](https://github.com/brandonkindred/buzzbands_mobile) · [buzzbands_client](https://github.com/brandonkindred/buzzbands_client)
 
-**Qanairy** — 2016–2020, archived
-Graph-native neural network for automated web application test discovery. Neo4j weights-as-edges; elastic vectors assembled from relevant edges at prediction time rather than a fixed dense network. Reinforcement-learning agent reached meaningful convergence in 20–30 training points per site. Filed a provisional on the elastic vectors architecture; wrote the full non-provisional and shelved it on counsel's advice. Publishing would have revealed the IP moat without funding to defend it. *Best in Class: Transfer Learning*, AI DevWorld San Jose, 2019.
+**Qanairy** — 2016–2019
+Automated web user interface testing service that used reinforcement learning and and Graph ML to map web applications and generate tests autonomously. Failed to identify distribution channel for growth. The RL core is now in the Deepthought repo. *Best in Class: Transfer Learning*, AI DevWorld San Jose, 2019.
 
 ## Selected Writing
 
