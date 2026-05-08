@@ -1,10 +1,6 @@
 # Brandon Kindred
 
-Systems engineer working on graph-native ML and neuro-symbolic systems since 2016. Currently Cloud Application Architect at AWS Professional Services.
-
-Three-time founder. Built a graph-native ML system from 2016 to 2020 whose core architectural bets (knowledge graphs as first-class weights, retrieval over graph structure) have since become mainstream under labels like GraphRAG and knowledge-graph agents. I care about the problems under the hype cycle: distributed systems, graph ML, CS fundamentals. I write and ship to prove it.
-
-For background, roles, and professional references: [linkedin.com/in/brandon-kindred](https://www.linkedin.com/in/brandon-kindred/).
+Software engineer and cloud architect that likes to build things. I have been working on graph-native ML and neuro-symbolic for the last decade. Checkout the Deepthought repository if that sort of thing appeals to you.
 
 ## Selected Work
 
