@@ -6,7 +6,7 @@ The longer version: I'm unashamedly curious and aggressively interested in how t
 
 If you scroll through my repos you'll find a mix of curiosity, failed ventures, and the occasional useful tool. **No promises on the functionality of anything specifically.** I'm here to be curious and learn out loud.
 
-A note on what's happening here right now: I shut Qanairy down years ago, but I never stopped using pieces of it. For a long time those pieces lived as janky personal setups — held together with whatever shortcut got me to the answer. Newish parenthood has a way of making "I'll fix it later" feel expensive, so I've been pulling the parts I rely on out into their own clean services. A few of those are below.
+A note on what's happening here right now: I've been pulling old projects out of cold storage, blowing the dust off, and repackaging the parts that engineers around me keep asking for into clean, easy-to-deploy services. A few of those are below.
 
 ## A few favorites
 
